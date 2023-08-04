@@ -1,12 +1,7 @@
-export function Exemplo({lista}){
+export function Dev({nome}){
     return (
         <div>
-            {lista.map(aluno=>(
-                <ul>
-                    <li>{aluno}</li>
-                </ul>
-            ))}
-            <h2>Meu nome é : {nome} </h2>
+            <h1>Meu nome é : {nome} </h1>
         </div>
     );
 }
