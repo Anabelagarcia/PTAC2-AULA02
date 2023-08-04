@@ -6,7 +6,7 @@ export function Exemplo({lista}){
                     <li>{aluno}</li>
                 </ul>
             ))}
-            <h2>Meu nome é {nome} </h2>lll
+            <h2>Meu nome é : {nome} </h2>
         </div>
     );
 }
